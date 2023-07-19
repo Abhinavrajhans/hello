@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #efefee;
+}
+
+*:focus {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  color: white;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(15, 27, 42, 0.8),
+      rgba(15, 27, 42, 0.8)
+    ),
+    url("/images/background/header_pattern_svg.svg");
+  border-bottom: 3px solid #5ec7e6;
+  position: relative;
+  justify-content: space-between;
+}
+
+.imgheader {
+  margin-left: 20px;
+}
+
+.header ul {
+  width: 100%;
+  text-align: right;
+}
+
+.header ul li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  margin: 10px 20px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-rows: auto;
+  margin: 0 50px;
+  justify-content: space-between;
+}
+.course {
+  font-weight: 600;
+  font-size: larger;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  margin: 20px 50px;
+}
+.course span {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.in {
+  background: #8cdc96;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.in1 {
+  border-bottom: 3px solid black;
+}
+.in img {
+  padding: 1rem;
+}
+.cards {
+  padding: 2rem 2rem 1rem 2rem;
+  background: white;
+  width: 44%;
+  margin-bottom: 2.3rem;
+}
+.card img {
+  object-fit: cover;
+  width: 50%;
+}
+.card {
+  display: flex;
+  border-bottom: 1px solid #d3d1d1;
+  padding-bottom: 2rem;
+}
+.text {
+  width: 100%;
+  margin-left: 1rem;
+}
+.text h3 {
+  margin-bottom: 0;
+}
+.phy p {
+  margin: 0rem;
+}
+.phy {
+  display: flex;
+  padding-top: 0;
+  margin: 0.5rem 0;
+}
+.phy span {
+  color: #009657;
+  font-weight: 900;
+}
+.unit {
+  display: flex;
+}
+.unit p {
+  padding-right: 1rem;
+  margin: 0rem;
+}
+.unit span {
+  font-weight: 900;
+}
+.car {
+  display: flex;
+  margin-top: 2rem;
+}
+.car select {
+  width: 100%;
+  border: none;
+  font-size: x-large;
+  margin: 0;
+  padding: 0;
+}
+.student {
+  border-top: 1px solid black;
+  display: flex;
+  width: 100%;
+}
+.student p {
+  font-size: medium;
+}
+.symbols {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.im1 {
+  object-fit: cover;
+  width: 2rem;
+}
+.im2 {
+  object-fit: cover;
+  width: 1.5rem;
+}
+.im3 {
+  object-fit: cover;
+  width: 1.5rem;
+}
+.im4 {
+  object-fit: cover;
+  width: 2rem;
+}

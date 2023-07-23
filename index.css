@@ -34,13 +34,15 @@ body {
 .header ul {
   width: 100%;
   text-align: right;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .header ul li {
   display: inline-block;
   list-style: none;
   text-transform: uppercase;
-  margin: 10px 20px;
+  margin: 10px 20px 0px 20px;
 }
 
 .header ul li a {
@@ -53,15 +55,16 @@ body {
   grid-template-rows: auto;
   margin: 0 50px;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 .course {
   font-weight: 600;
   font-size: larger;
   display: flex;
   justify-content: space-around;
-  height: 10vh;
+  height: 7vh;
   align-items: center;
-  margin: 20px 50px;
+  margin: 15px 50px 5px 50px;
 }
 .course span {
   font-weight: bolder;
@@ -78,22 +81,90 @@ body {
   border-bottom: 3px solid black;
 }
 .in img {
-  padding: 1rem;
+  padding: 0.4rem;
 }
+
+.course select {
+  border: none;
+}
+
+.cs {
+  display: flex;
+}
+.c4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid rgb(207, 204, 204);
+}
+.c4 ul {
+  margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
+.c4 p {
+  margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
+.cs select {
+  border: none;
+  background-color: #efefee;
+  margin-right: 1rem;
+  border-bottom: 1px solid rgb(207, 204, 204);
+  font-size: large;
+  padding-bottom: 0;
+  margin-left: 0.4rem;
+  padding-left: 0;
+  width: 10rem;
+}
+.c4 ul li {
+  list-style: none;
+}
+.sorr {
+  margin-right: 0.3rem;
+}
+.sorr span {
+  margin-left: 0.2rem;
+}
+.fav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fav div img {
+  height: auto;
+  width: auto;
+}
+
 .cards {
-  padding: 2rem 2rem 1rem 2rem;
   background: white;
-  width: 44%;
+  width: 42rem;
   margin-bottom: 2.3rem;
+}
+.inside {
+  padding: 2rem 2rem 1rem 2rem;
+}
+.exp {
+  height: 0rem;
+}
+.exp p {
+  background: #f5caca;
+  color: rgb(255, 0, 0);
+  margin: 0;
+  padding: 0rem 0.2rem;
+  width: fit-content;
+  font-weight: bolder;
 }
 .card img {
   object-fit: cover;
-  width: 50%;
+  width: 30%;
+  height: 30%;
+}
+.o1 {
+  color: gray;
 }
 .card {
   display: flex;
   border-bottom: 1px solid #d3d1d1;
-  padding-bottom: 2rem;
+  padding-bottom: 0.6rem;
 }
 .text {
   width: 100%;
@@ -101,6 +172,7 @@ body {
 }
 .text h3 {
   margin-bottom: 0;
+  margin: 0;
 }
 .phy p {
   margin: 0rem;
@@ -126,12 +198,12 @@ body {
 }
 .car {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .car select {
   width: 100%;
   border: none;
-  font-size: x-large;
+  font-size: large;
   margin: 0;
   padding: 0;
 }
@@ -140,30 +212,51 @@ body {
   display: flex;
   width: 100%;
 }
-.student p {
-  font-size: medium;
-}
-.symbols {
-  margin-top: 1rem;
-  padding-top: 0.5rem;
 
+.symbols {
+  margin-top: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.im1 {
-  object-fit: cover;
-  width: 2rem;
+.symbols img {
+  opacity: 0.5;
 }
-.im2 {
-  object-fit: cover;
-  width: 1.5rem;
+.alertn {
+  position: relative;
 }
-.im3 {
-  object-fit: cover;
-  width: 1.5rem;
+.alertv {
+  position: relative;
 }
-.im4 {
-  object-fit: cover;
-  width: 2rem;
+
+.alertv::after {
+  content: attr(count);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+}
+
+.alertn::after {
+  content: attr(count);
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
 }

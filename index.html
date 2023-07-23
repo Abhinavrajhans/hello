@@ -15,7 +15,6 @@
 
   <body>
     <div class="container">
-      <h1>hello world</h1>
       <div class="header">
         <img class="imgheader" src="images/icon/logoheader.svg" />
         <ul>
@@ -24,9 +23,21 @@
           <li><a>users</a></li>
           <li><a>reports</a></li>
           <li><a>admin</a></li>
-          <li><img src="images/icon/alerts.svg" /></li>
-          <li><img src="images/icon/announcements.svg" /></li>
-          <li><img src="images/icon/announcements.svg" /></li>
+          <li>
+            <div class="alertv" count="4">
+              <img src="images/icon/alerts.svg" />
+            </div>
+          </li>
+          <li>
+            <div class="alertn" count="8">
+              <img src="images/icon/announcements.svg" />
+            </div>
+          </li>
+          <li>
+            <div class="alertv" count="1">
+              <img src="images/icon/alerts.svg" />
+            </div>
+          </li>
         </ul>
       </div>
       <div class="course">
@@ -39,159 +50,200 @@
           <a><span>4</span> Classes</a>
         </div>
       </div>
+      <div class="c4">
+        <p>Showing 4 of 4 Courses</p>
+        <ul class="cs">
+          <li class="sorr">Sort By<span>:</span></li>
+          <li>
+            <select name="cselect" id="cselect" class="cselect">
+              <option value="c2" selected>Course Name</option>
+            </select>
+          </li>
+          <li>
+            <img src="/images/icon/sort.svg" alt="" />
+          </li>
+        </ul>
+      </div>
       <div class="collection">
         <div class="cards">
-          <div class="card">
-            <img src="/images/imageMask.png" alt="" />
-            <div class="text">
-              <h3>Acceleration</h3>
-              <div class="phy">
-                <p>Physics | Grade 7 <span>+2</span></p>
-              </div>
-              <div class="unit">
-                <p><span>4</span> Units</p>
-                <p><span>18</span> Lessons</p>
-                <p><span>24</span> Topics</p>
-              </div>
-              <div class="car">
-                <select name="cars" id="cars">
-                  <option value="frank">Mr Frank's Class B</option>
-                </select>
-              </div>
-              <div class="student">
-                <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
+          <div class="exp"><p></p></div>
+          <div class="inside">
+            <div class="card">
+              <img src="/images/imageMask.png" alt="" />
+              <div class="text">
+                <div class="fav">
+                  <h3>Acceleration</h3>
+                  <div>
+                    <img src="/images/icon/favourite.svg" alt="" />
+                  </div>
+                </div>
+
+                <div class="phy">
+                  <p>Physics | Grade 7 <span>+2</span></p>
+                </div>
+                <div class="unit">
+                  <p><span>4</span> Units</p>
+                  <p><span>18</span> Lessons</p>
+                  <p><span>24</span> Topics</p>
+                </div>
+                <div class="car">
+                  <select name="cars" id="cars" class="o1">
+                    <option value="n1" selected>No Classes</option>
+                    <option value="frank">Mr Frank's Class B</option>
+                  </select>
+                </div>
+                <div class="student">
+                  <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
+                </div>
               </div>
             </div>
+            <div class="symbols">
+              <img class="im1" src="/images/icon/preview.svg" alt="" />
+              <img class="im2" src="/images/icon/manage course.svg" alt="" />
+              <img
+                class="im3"
+                src="/images/icon/grade submissions.svg"
+                alt=""
+              />
+              <img class="im4" src="/images/icon/reports.svg" alt="" />
+            </div>
           </div>
-          <div class="symbols">
-            <img class="im1" src="/images/icon/preview.svg" alt="" />
-            <img class="im2" src="/images/icon/manage course.svg" alt="" />
-            <img class="im3" src="/images/icon/grade submissions.svg" alt="" />
-            <img class="im4" src="/images/icon/reports.svg" alt="" />
+        </div>
+
+        <div class="cards">
+          <div class="exp"><p></p></div>
+          <div class="inside">
+            <div class="card">
+              <img src="/images/imageMask.png" alt="" />
+              <div class="text">
+                <div class="fav">
+                  <h3>Acceleration</h3>
+                  <div>
+                    <img src="/images/icon/favourite.svg" alt="" />
+                  </div>
+                </div>
+
+                <div class="phy">
+                  <p>Physics | Grade 7 <span>+2</span></p>
+                </div>
+                <div class="unit">
+                  <p><span>4</span> Units</p>
+                  <p><span>18</span> Lessons</p>
+                  <p><span>24</span> Topics</p>
+                </div>
+                <div class="car">
+                  <select name="cars" id="cars" class="o1">
+                    <option value="n1" selected>No Classes</option>
+                    <option value="frank">Mr Frank's Class B</option>
+                  </select>
+                </div>
+                <div class="student">
+                  <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="symbols">
+              <img class="im1" src="/images/icon/preview.svg" alt="" />
+              <img class="im2" src="/images/icon/manage course.svg" alt="" />
+              <img
+                class="im3"
+                src="/images/icon/grade submissions.svg"
+                alt=""
+              />
+              <img class="im4" src="/images/icon/reports.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="exp"><p></p></div>
+          <div class="inside">
+            <div class="card">
+              <img src="/images/imageMask.png" alt="" />
+              <div class="text">
+                <div class="fav">
+                  <h3>Acceleration</h3>
+                  <div>
+                    <img src="/images/icon/favourite.svg" alt="" />
+                  </div>
+                </div>
+
+                <div class="phy">
+                  <p>Physics | Grade 7 <span>+2</span></p>
+                </div>
+                <div class="unit">
+                  <p><span>4</span> Units</p>
+                  <p><span>18</span> Lessons</p>
+                  <p><span>24</span> Topics</p>
+                </div>
+                <div class="car">
+                  <select name="cars" id="cars" class="o1">
+                    <option value="n1" selected>No Classes</option>
+                    <option value="frank">Mr Frank's Class B</option>
+                  </select>
+                </div>
+                <div class="student">
+                  <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="symbols">
+              <img class="im1" src="/images/icon/preview.svg" alt="" />
+              <img class="im2" src="/images/icon/manage course.svg" alt="" />
+              <img
+                class="im3"
+                src="/images/icon/grade submissions.svg"
+                alt=""
+              />
+              <img class="im4" src="/images/icon/reports.svg" alt="" />
+            </div>
           </div>
         </div>
         <div class="cards">
-          <div class="card">
-            <img src="/images/imageMask.png" alt="" />
-            <div class="text">
-              <h3>Acceleration</h3>
-              <div class="phy">
-                <p>Physics | Grade 7 <span>+2</span></p>
-              </div>
-              <div class="unit">
-                <p><span>4</span> Units</p>
-                <p><span>18</span> Lessons</p>
-                <p><span>24</span> Topics</p>
-              </div>
-              <div class="car">
-                <select name="cars" id="cars">
-                  <option value="frank">Mr Frank's Class B</option>
-                </select>
-              </div>
-              <div class="student">
-                <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
-              </div>
-            </div>
-          </div>
-          <div class="symbols">
-            <img class="im1" src="/images/icon/preview.svg" alt="" />
-            <img class="im2" src="/images/icon/manage course.svg" alt="" />
-            <img class="im3" src="/images/icon/grade submissions.svg" alt="" />
-            <img class="im4" src="/images/icon/reports.svg" alt="" />
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <img src="/images/imageMask.png" alt="" />
-            <div class="text">
-              <h3>Acceleration</h3>
-              <div class="phy">
-                <p>Physics | Grade 7 <span>+2</span></p>
-              </div>
-              <div class="unit">
-                <p><span>4</span> Units</p>
-                <p><span>18</span> Lessons</p>
-                <p><span>24</span> Topics</p>
-              </div>
-              <div class="car">
-                <select name="cars" id="cars">
-                  <option value="frank">Mr Frank's Class B</option>
-                </select>
-              </div>
-              <div class="student">
-                <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
+          <div class="exp"><p>EXPIRED</p></div>
+          <div class="inside">
+            <div class="card">
+              <img src="/images/imageMask.png" alt="" />
+              <div class="text">
+                <div class="fav">
+                  <h3>Acceleration</h3>
+                  <div>
+                    <img src="/images/icon/favourite.svg" alt="" />
+                  </div>
+                </div>
+
+                <div class="phy">
+                  <p>Physics | Grade 7 <span>+2</span></p>
+                </div>
+                <div class="unit">
+                  <p><span>4</span> Units</p>
+                  <p><span>18</span> Lessons</p>
+                  <p><span>24</span> Topics</p>
+                </div>
+                <div class="car">
+                  <select name="cars" id="cars" class="o1">
+                    <option value="n1" selected>No Classes</option>
+                    <option value="frank">Mr Frank's Class B</option>
+                  </select>
+                </div>
+                <div class="student">
+                  <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="symbols">
-            <img class="im1" src="/images/icon/preview.svg" alt="" />
-            <img class="im2" src="/images/icon/manage course.svg" alt="" />
-            <img class="im3" src="/images/icon/grade submissions.svg" alt="" />
-            <img class="im4" src="/images/icon/reports.svg" alt="" />
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <img src="/images/imageMask.png" alt="" />
-            <div class="text">
-              <h3>Acceleration</h3>
-              <div class="phy">
-                <p>Physics | Grade 7 <span>+2</span></p>
-              </div>
-              <div class="unit">
-                <p><span>4</span> Units</p>
-                <p><span>18</span> Lessons</p>
-                <p><span>24</span> Topics</p>
-              </div>
-              <div class="car">
-                <select name="cars" id="cars">
-                  <option value="frank">Mr Frank's Class B</option>
-                </select>
-              </div>
-              <div class="student">
-                <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
-              </div>
+            <div class="symbols">
+              <img class="im1" src="/images/icon/preview.svg" alt="" />
+              <img class="im2" src="/images/icon/manage course.svg" alt="" />
+              <img
+                class="im3"
+                src="/images/icon/grade submissions.svg"
+                alt=""
+              />
+              <img class="im4" src="/images/icon/reports.svg" alt="" />
             </div>
-          </div>
-          <div class="symbols">
-            <img class="im1" src="/images/icon/preview.svg" alt="" />
-            <img class="im2" src="/images/icon/manage course.svg" alt="" />
-            <img class="im3" src="/images/icon/grade submissions.svg" alt="" />
-            <img class="im4" src="/images/icon/reports.svg" alt="" />
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card">
-            <img src="/images/imageMask.png" alt="" />
-            <div class="text">
-              <h3>Acceleration</h3>
-              <div class="phy">
-                <p>Physics | Grade 7 <span>+2</span></p>
-              </div>
-              <div class="unit">
-                <p><span>4</span> Units</p>
-                <p><span>18</span> Lessons</p>
-                <p><span>24</span> Topics</p>
-              </div>
-              <div class="car">
-                <select name="cars" id="cars">
-                  <option value="frank">Mr Frank's Class B</option>
-                </select>
-              </div>
-              <div class="student">
-                <p>50 Students | 21-Jan-2020 - 21-Aug-2020</p>
-              </div>
-            </div>
-          </div>
-          <div class="symbols">
-            <img class="im1" src="/images/icon/preview.svg" alt="" />
-            <img class="im2" src="/images/icon/manage course.svg" alt="" />
-            <img class="im3" src="/images/icon/grade submissions.svg" alt="" />
-            <img class="im4" src="/images/icon/reports.svg" alt="" />
           </div>
         </div>
       </div>
-
       <div>
         <span>About | Contact Us</span>
       </div>
